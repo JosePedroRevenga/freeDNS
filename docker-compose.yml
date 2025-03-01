@@ -9,7 +9,7 @@ services:
       - SERVICE=${SERVICE}
       - USER=${USERNAME}
       - PASSWORD=${PASSWORD}
-      - HOSTNAME={DOMAIN}
+      - HOSTNAME=${DOMAIN}
     healthcheck:
       test: /usr/bin/healthcheck
       interval: 10s
